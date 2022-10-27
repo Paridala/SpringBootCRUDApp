@@ -1,0 +1,298 @@
+2022-10-27 09:07:19.570  INFO 24336 --- [restartedMain] net.codejava.ProductManagerApplication   : Starting ProductManagerApplication on MSI with PID 24336 (C:\Users\91630\Downloads\springbootcrudapplication-main\springbootcrudapplication-main\target\classes started by 91630 in C:\Users\91630\Downloads\springbootcrudapplication-main\springbootcrudapplication-main)
+2022-10-27 09:07:19.648  INFO 24336 --- [restartedMain] net.codejava.ProductManagerApplication   : No active profile set, falling back to default profiles: default
+2022-10-27 09:07:19.769  INFO 24336 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\91630\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/91630/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/91630/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/91630/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/91630/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/91630/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/91630/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2022-10-27 09:07:19.769  INFO 24336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-27 09:07:19.769  INFO 24336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-27 09:07:20.932  INFO 24336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-27 09:07:21.011  INFO 24336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69ms. Found 2 JPA repository interfaces.
+2022-10-27 09:07:21.770  INFO 24336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-10-27 09:07:21.784  INFO 24336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-27 09:07:21.801  INFO 24336 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2022-10-27 09:07:21.902  INFO 24336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-27 09:07:21.902  INFO 24336 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2133 ms
+2022-10-27 09:07:21.973  WARN 24336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [C9C055E02D5D8941AC2BE60EC8297C5D]
+2022-10-27 09:07:22.079  INFO 24336 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-27 09:07:22.196  INFO 24336 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2022-10-27 09:07:22.335  INFO 24336 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2022-10-27 09:07:22.362 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@6a76cd22
+2022-10-27 09:07:22.363 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@6a76cd22
+2022-10-27 09:07:22.363 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@6a76cd22
+2022-10-27 09:07:22.363 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@5f000ee8
+2022-10-27 09:07:22.364 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@7cdc8757
+2022-10-27 09:07:22.364 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@4cf67020
+2022-10-27 09:07:22.365 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@5938a12e
+2022-10-27 09:07:22.366 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@5938a12e
+2022-10-27 09:07:22.366 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@5938a12e
+2022-10-27 09:07:22.366 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@2cecf152
+2022-10-27 09:07:22.367 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@2cecf152
+2022-10-27 09:07:22.367 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@2cecf152
+2022-10-27 09:07:22.367 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@793a2d12
+2022-10-27 09:07:22.367 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@793a2d12
+2022-10-27 09:07:22.368 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@793a2d12
+2022-10-27 09:07:22.368 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@31920e68
+2022-10-27 09:07:22.368 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@31920e68
+2022-10-27 09:07:22.368 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@31920e68
+2022-10-27 09:07:22.369 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@65aabe5b
+2022-10-27 09:07:22.369 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@65aabe5b
+2022-10-27 09:07:22.369 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@65aabe5b
+2022-10-27 09:07:22.370 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@4410463d
+2022-10-27 09:07:22.370 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@4410463d
+2022-10-27 09:07:22.370 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@4410463d
+2022-10-27 09:07:22.371 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@48c0df6d
+2022-10-27 09:07:22.371 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@48c0df6d
+2022-10-27 09:07:22.371 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@48c0df6d
+2022-10-27 09:07:22.372 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@738ea0d9
+2022-10-27 09:07:22.372 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@738ea0d9
+2022-10-27 09:07:22.372 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@4b51bac6
+2022-10-27 09:07:22.373 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@4b51bac6
+2022-10-27 09:07:22.373 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@6ae6052c
+2022-10-27 09:07:22.375 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@6ae6052c
+2022-10-27 09:07:22.375 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@3337f380
+2022-10-27 09:07:22.375 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@3f6e8bb8
+2022-10-27 09:07:22.376 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@218a3477
+2022-10-27 09:07:22.376 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@218a3477
+2022-10-27 09:07:22.376 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@69df9081
+2022-10-27 09:07:22.376 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@69df9081
+2022-10-27 09:07:22.377 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@2c06bb38
+2022-10-27 09:07:22.377 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@2c06bb38
+2022-10-27 09:07:22.378 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@7e82d05e
+2022-10-27 09:07:22.378 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@7e82d05e
+2022-10-27 09:07:22.379 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@220e4fc
+2022-10-27 09:07:22.379 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@220e4fc
+2022-10-27 09:07:22.380 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@aded1f8
+2022-10-27 09:07:22.380 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@aded1f8
+2022-10-27 09:07:22.381 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6af02d75
+2022-10-27 09:07:22.381 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6af02d75
+2022-10-27 09:07:22.382 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@47a4572
+2022-10-27 09:07:22.382 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@47a4572
+2022-10-27 09:07:22.382 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@4272b4ed
+2022-10-27 09:07:22.382 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@4272b4ed
+2022-10-27 09:07:22.384 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@58aa6107
+2022-10-27 09:07:22.384 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@58aa6107
+2022-10-27 09:07:22.384 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@66f7d24f
+2022-10-27 09:07:22.384 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@66f7d24f
+2022-10-27 09:07:22.386 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@1feac5da
+2022-10-27 09:07:22.386 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@1feac5da
+2022-10-27 09:07:22.386 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@1feac5da
+2022-10-27 09:07:22.387 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@69728b99
+2022-10-27 09:07:22.388 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@40b7b041
+2022-10-27 09:07:22.388 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@40b7b041
+2022-10-27 09:07:22.388 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@40b7b041
+2022-10-27 09:07:22.389 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@6c6da34d
+2022-10-27 09:07:22.390 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@4b0651a3
+2022-10-27 09:07:22.391 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@374fdd71
+2022-10-27 09:07:22.391 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@374fdd71
+2022-10-27 09:07:22.392 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@fed6b51
+2022-10-27 09:07:22.392 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@fed6b51
+2022-10-27 09:07:22.393 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@66a804d4
+2022-10-27 09:07:22.393 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@66a804d4
+2022-10-27 09:07:22.393 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@6fe2f227
+2022-10-27 09:07:22.394 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@6fe2f227
+2022-10-27 09:07:22.394 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@771b5a54
+2022-10-27 09:07:22.394 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@771b5a54
+2022-10-27 09:07:22.394 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@6f73adf9
+2022-10-27 09:07:22.395 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@471a7bd
+2022-10-27 09:07:22.395 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@471a7bd
+2022-10-27 09:07:22.395 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@471a7bd
+2022-10-27 09:07:22.396 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@719da396
+2022-10-27 09:07:22.396 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@719da396
+2022-10-27 09:07:22.396 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@719da396
+2022-10-27 09:07:22.398 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@7085904c
+2022-10-27 09:07:22.398 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@3522e1e2
+2022-10-27 09:07:22.399 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@23648341
+2022-10-27 09:07:22.399 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@23648341
+2022-10-27 09:07:22.399 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@23648341
+2022-10-27 09:07:22.400 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@52e98998
+2022-10-27 09:07:22.400 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@52e98998
+2022-10-27 09:07:22.400 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@52e98998
+2022-10-27 09:07:22.401 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@4036ac8b
+2022-10-27 09:07:22.401 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@5945222c
+2022-10-27 09:07:22.402 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@779ff994
+2022-10-27 09:07:22.402 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@779ff994
+2022-10-27 09:07:22.404 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@63c60e72
+2022-10-27 09:07:22.406 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@6145018
+2022-10-27 09:07:22.406 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@6145018
+2022-10-27 09:07:22.408 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@7aad8c7
+2022-10-27 09:07:22.408 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@7aad8c7
+2022-10-27 09:07:22.408 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@9d97c7d
+2022-10-27 09:07:22.408 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@38711145
+2022-10-27 09:07:22.411 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@4b98e480
+2022-10-27 09:07:22.414 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@38cdda7e
+2022-10-27 09:07:22.414 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@38cdda7e
+2022-10-27 09:07:22.415 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@2bd63346
+2022-10-27 09:07:22.415 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@6ad6c5c5
+2022-10-27 09:07:22.415 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@4e0765e1
+2022-10-27 09:07:22.415 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4351a780
+2022-10-27 09:07:22.415 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@5987e0af
+2022-10-27 09:07:22.415 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@5a3eeb7
+2022-10-27 09:07:22.415 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@707eab8f
+2022-10-27 09:07:22.416 DEBUG 24336 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3edd7fa7
+2022-10-27 09:07:22.460  INFO 24336 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-27 09:07:22.628  INFO 24336 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-27 09:07:22.644  INFO 24336 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-10-27 09:07:22.709 DEBUG 24336 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2ae7a051] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@161d419e]
+2022-10-27 09:07:22.999 DEBUG 24336 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2ae7a051] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@56e92c38]
+2022-10-27 09:07:23.398  INFO 24336 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-27 09:07:23.405 TRACE 24336 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@56e92c38] for TypeConfiguration
+2022-10-27 09:07:23.406  INFO 24336 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-27 09:07:23.433  INFO 24336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-27 09:07:23.622  WARN 24336 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-27 09:07:23.882  INFO 24336 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@580361d7, org.springframework.security.web.context.SecurityContextPersistenceFilter@34d9b22d, org.springframework.security.web.header.HeaderWriterFilter@51a67104, org.springframework.security.web.csrf.CsrfFilter@190309d1, org.springframework.security.web.authentication.logout.LogoutFilter@3e33b5c0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@9be4992, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7c8ffa8d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@923408e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@426d854f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@227257d7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@576c98c3, org.springframework.security.web.session.SessionManagementFilter@60d091db, org.springframework.security.web.access.ExceptionTranslationFilter@84315e4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5fdea5d0]
+2022-10-27 09:07:24.025  INFO 24336 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-10-27 09:07:24.107  INFO 24336 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-10-27 09:07:24.513  INFO 24336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-10-27 09:07:24.519  INFO 24336 --- [restartedMain] net.codejava.ProductManagerApplication   : Started ProductManagerApplication in 5.767 seconds (JVM running for 6.752)
+2022-10-27 09:10:40.590  INFO 24336 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-27 09:10:40.591  INFO 24336 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-27 09:10:40.602  INFO 24336 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2022-10-27 09:11:07.506 DEBUG 24336 --- [http-nio-9090-exec-8] org.hibernate.SQL                        : select user0_.user_id as user_id1_2_, user0_.enabled as enabled2_2_, user0_.password as password3_2_, user0_.username as username4_2_ from users user0_ where user0_.username=?
+2022-10-27 09:11:07.514 TRACE 24336 --- [http-nio-9090-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [yesh]
+2022-10-27 09:11:07.519 TRACE 24336 --- [http-nio-9090-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [BIGINT]) - [1]
+2022-10-27 09:11:07.529 TRACE 24336 --- [http-nio-9090-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([enabled2_2_] : [BOOLEAN]) - [true]
+2022-10-27 09:11:07.530 TRACE 24336 --- [http-nio-9090-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password3_2_] : [VARCHAR]) - [$2a$10$J4jHgcHk.a1WLUREeD9wwuVDbM2UQBC5ib4j17fpmP9CXLEWoPj3y]
+2022-10-27 09:11:07.530 TRACE 24336 --- [http-nio-9090-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username4_2_] : [VARCHAR]) - [yesh]
+2022-10-27 09:11:07.548 TRACE 24336 --- [http-nio-9090-exec-8] org.hibernate.type.CollectionType        : Created collection wrapper: [net.codejava.User.roles#1]
+2022-10-27 09:11:07.553 DEBUG 24336 --- [http-nio-9090-exec-8] org.hibernate.SQL                        : select roles0_.user_id as user_id1_3_0_, roles0_.role_id as role_id2_3_0_, role1_.role_id as role_id1_1_1_, role1_.name as name2_1_1_ from users_roles roles0_ inner join roles role1_ on roles0_.role_id=role1_.role_id where roles0_.user_id=?
+2022-10-27 09:11:07.554 TRACE 24336 --- [http-nio-9090-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [1]
+2022-10-27 09:11:07.563 TRACE 24336 --- [http-nio-9090-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_1_1_] : [INTEGER]) - [1]
+2022-10-27 09:11:07.564 TRACE 24336 --- [http-nio-9090-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_1_1_] : [VARCHAR]) - [USER]
+2022-10-27 09:11:07.565 TRACE 24336 --- [http-nio-9090-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_3_0_] : [BIGINT]) - [1]
+2022-10-27 09:11:07.565 TRACE 24336 --- [http-nio-9090-exec-8] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_3_0_] : [INTEGER]) - [1]
+2022-10-27 09:11:07.786  INFO 24336 --- [http-nio-9090-exec-9] net.codejava.AppController               : Displaying products...
+2022-10-27 09:11:07.839 DEBUG 24336 --- [http-nio-9090-exec-9] org.hibernate.SQL                        : select product0_.id as id1_0_, product0_.brand as brand2_0_, product0_.madein as madein3_0_, product0_.name as name4_0_, product0_.price as price5_0_ from product product0_
+2022-10-27 09:11:07.841 TRACE 24336 --- [http-nio-9090-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [2]
+2022-10-27 09:11:07.841 TRACE 24336 --- [http-nio-9090-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_] : [VARCHAR]) - [lg]
+2022-10-27 09:11:07.841 TRACE 24336 --- [http-nio-9090-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_] : [VARCHAR]) - [india]
+2022-10-27 09:11:07.841 TRACE 24336 --- [http-nio-9090-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_] : [VARCHAR]) - [monitor]
+2022-10-27 09:11:07.842 TRACE 24336 --- [http-nio-9090-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [FLOAT]) - [10000.0]
+2022-10-27 09:11:24.163  INFO 24336 --- [http-nio-9090-exec-4] net.codejava.AppController               : Displaying products...
+2022-10-27 09:11:24.166 DEBUG 24336 --- [http-nio-9090-exec-4] org.hibernate.SQL                        : select product0_.id as id1_0_, product0_.brand as brand2_0_, product0_.madein as madein3_0_, product0_.name as name4_0_, product0_.price as price5_0_ from product product0_
+2022-10-27 09:11:24.167 TRACE 24336 --- [http-nio-9090-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [2]
+2022-10-27 09:11:24.167 TRACE 24336 --- [http-nio-9090-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_] : [VARCHAR]) - [lg]
+2022-10-27 09:11:24.168 TRACE 24336 --- [http-nio-9090-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_] : [VARCHAR]) - [india]
+2022-10-27 09:11:24.168 TRACE 24336 --- [http-nio-9090-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_] : [VARCHAR]) - [monitor]
+2022-10-27 09:11:24.168 TRACE 24336 --- [http-nio-9090-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [FLOAT]) - [10000.0]
+2022-10-27 09:11:27.931  INFO 24336 --- [http-nio-9090-exec-3] net.codejava.AppController               : Displaying products...
+2022-10-27 09:11:27.934 DEBUG 24336 --- [http-nio-9090-exec-3] org.hibernate.SQL                        : select product0_.id as id1_0_, product0_.brand as brand2_0_, product0_.madein as madein3_0_, product0_.name as name4_0_, product0_.price as price5_0_ from product product0_
+2022-10-27 09:11:27.935 TRACE 24336 --- [http-nio-9090-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [2]
+2022-10-27 09:11:27.936 TRACE 24336 --- [http-nio-9090-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_] : [VARCHAR]) - [lg]
+2022-10-27 09:11:27.936 TRACE 24336 --- [http-nio-9090-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_] : [VARCHAR]) - [india]
+2022-10-27 09:11:27.936 TRACE 24336 --- [http-nio-9090-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_] : [VARCHAR]) - [monitor]
+2022-10-27 09:11:27.936 TRACE 24336 --- [http-nio-9090-exec-3] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [FLOAT]) - [10000.0]
+2022-10-27 09:11:28.198  INFO 24336 --- [http-nio-9090-exec-5] net.codejava.AppController               : Displaying products...
+2022-10-27 09:11:28.200 DEBUG 24336 --- [http-nio-9090-exec-5] org.hibernate.SQL                        : select product0_.id as id1_0_, product0_.brand as brand2_0_, product0_.madein as madein3_0_, product0_.name as name4_0_, product0_.price as price5_0_ from product product0_
+2022-10-27 09:11:28.201 TRACE 24336 --- [http-nio-9090-exec-5] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [2]
+2022-10-27 09:11:28.201 TRACE 24336 --- [http-nio-9090-exec-5] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_] : [VARCHAR]) - [lg]
+2022-10-27 09:11:28.202 TRACE 24336 --- [http-nio-9090-exec-5] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_] : [VARCHAR]) - [india]
+2022-10-27 09:11:28.202 TRACE 24336 --- [http-nio-9090-exec-5] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_] : [VARCHAR]) - [monitor]
+2022-10-27 09:11:28.202 TRACE 24336 --- [http-nio-9090-exec-5] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [FLOAT]) - [10000.0]
+2022-10-27 09:11:40.184 DEBUG 24336 --- [http-nio-9090-exec-10] org.hibernate.SQL                        : select user0_.user_id as user_id1_2_, user0_.enabled as enabled2_2_, user0_.password as password3_2_, user0_.username as username4_2_ from users user0_ where user0_.username=?
+2022-10-27 09:11:40.185 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2022-10-27 09:11:40.188 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_2_] : [BIGINT]) - [2]
+2022-10-27 09:11:40.188 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([enabled2_2_] : [BOOLEAN]) - [true]
+2022-10-27 09:11:40.188 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([password3_2_] : [VARCHAR]) - [$2a$10$CeVR/eOMmUAB.c9RNFSwvegf/kdJ0nBcljtbRcvFI8Tvfn0ljWd96]
+2022-10-27 09:11:40.188 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([username4_2_] : [VARCHAR]) - [admin]
+2022-10-27 09:11:40.188 TRACE 24336 --- [http-nio-9090-exec-10] org.hibernate.type.CollectionType        : Created collection wrapper: [net.codejava.User.roles#2]
+2022-10-27 09:11:40.188 DEBUG 24336 --- [http-nio-9090-exec-10] org.hibernate.SQL                        : select roles0_.user_id as user_id1_3_0_, roles0_.role_id as role_id2_3_0_, role1_.role_id as role_id1_1_1_, role1_.name as name2_1_1_ from users_roles roles0_ inner join roles role1_ on roles0_.role_id=role1_.role_id where roles0_.user_id=?
+2022-10-27 09:11:40.189 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2022-10-27 09:11:40.190 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id1_1_1_] : [INTEGER]) - [2]
+2022-10-27 09:11:40.190 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name2_1_1_] : [VARCHAR]) - [ADMIN]
+2022-10-27 09:11:40.190 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([user_id1_3_0_] : [BIGINT]) - [2]
+2022-10-27 09:11:40.190 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([role_id2_3_0_] : [INTEGER]) - [2]
+2022-10-27 09:11:40.372  INFO 24336 --- [http-nio-9090-exec-1] net.codejava.AppController               : Displaying products...
+2022-10-27 09:11:40.373 DEBUG 24336 --- [http-nio-9090-exec-1] org.hibernate.SQL                        : select product0_.id as id1_0_, product0_.brand as brand2_0_, product0_.madein as madein3_0_, product0_.name as name4_0_, product0_.price as price5_0_ from product product0_
+2022-10-27 09:11:40.374 TRACE 24336 --- [http-nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [2]
+2022-10-27 09:11:40.375 TRACE 24336 --- [http-nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_] : [VARCHAR]) - [lg]
+2022-10-27 09:11:40.375 TRACE 24336 --- [http-nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_] : [VARCHAR]) - [india]
+2022-10-27 09:11:40.375 TRACE 24336 --- [http-nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_] : [VARCHAR]) - [monitor]
+2022-10-27 09:11:40.375 TRACE 24336 --- [http-nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [FLOAT]) - [10000.0]
+2022-10-27 09:14:35.547 DEBUG 24336 --- [http-nio-9090-exec-7] org.hibernate.SQL                        : insert into product (brand, madein, name, price) values (?, ?, ?, ?)
+2022-10-27 09:14:35.548 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [redmi]
+2022-10-27 09:14:35.548 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [china]
+2022-10-27 09:14:35.548 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [Poco m4 pro]
+2022-10-27 09:14:35.549 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [FLOAT] - [17000.0]
+2022-10-27 09:14:35.576  INFO 24336 --- [http-nio-9090-exec-9] net.codejava.AppController               : Displaying products...
+2022-10-27 09:14:35.578 DEBUG 24336 --- [http-nio-9090-exec-9] org.hibernate.SQL                        : select product0_.id as id1_0_, product0_.brand as brand2_0_, product0_.madein as madein3_0_, product0_.name as name4_0_, product0_.price as price5_0_ from product product0_
+2022-10-27 09:14:35.579 TRACE 24336 --- [http-nio-9090-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [2]
+2022-10-27 09:14:35.579 TRACE 24336 --- [http-nio-9090-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_] : [VARCHAR]) - [lg]
+2022-10-27 09:14:35.579 TRACE 24336 --- [http-nio-9090-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_] : [VARCHAR]) - [india]
+2022-10-27 09:14:35.579 TRACE 24336 --- [http-nio-9090-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_] : [VARCHAR]) - [monitor]
+2022-10-27 09:14:35.579 TRACE 24336 --- [http-nio-9090-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [FLOAT]) - [10000.0]
+2022-10-27 09:14:35.580 TRACE 24336 --- [http-nio-9090-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [3]
+2022-10-27 09:14:35.580 TRACE 24336 --- [http-nio-9090-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_] : [VARCHAR]) - [redmi]
+2022-10-27 09:14:35.580 TRACE 24336 --- [http-nio-9090-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_] : [VARCHAR]) - [china]
+2022-10-27 09:14:35.580 TRACE 24336 --- [http-nio-9090-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_] : [VARCHAR]) - [Poco m4 pro]
+2022-10-27 09:14:35.580 TRACE 24336 --- [http-nio-9090-exec-9] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [FLOAT]) - [17000.0]
+2022-10-27 09:14:42.909 DEBUG 24336 --- [http-nio-9090-exec-1] org.hibernate.SQL                        : select product0_.id as id1_0_0_, product0_.brand as brand2_0_0_, product0_.madein as madein3_0_0_, product0_.name as name4_0_0_, product0_.price as price5_0_0_ from product product0_ where product0_.id=?
+2022-10-27 09:14:42.910 TRACE 24336 --- [http-nio-9090-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2022-10-27 09:14:42.911 TRACE 24336 --- [http-nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_0_] : [VARCHAR]) - [lg]
+2022-10-27 09:14:42.912 TRACE 24336 --- [http-nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_0_] : [VARCHAR]) - [india]
+2022-10-27 09:14:42.912 TRACE 24336 --- [http-nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_0_] : [VARCHAR]) - [monitor]
+2022-10-27 09:14:42.912 TRACE 24336 --- [http-nio-9090-exec-1] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_0_] : [FLOAT]) - [10000.0]
+2022-10-27 09:14:53.526 DEBUG 24336 --- [http-nio-9090-exec-2] org.hibernate.SQL                        : select product0_.id as id1_0_0_, product0_.brand as brand2_0_0_, product0_.madein as madein3_0_0_, product0_.name as name4_0_0_, product0_.price as price5_0_0_ from product product0_ where product0_.id=?
+2022-10-27 09:14:53.527 TRACE 24336 --- [http-nio-9090-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [2]
+2022-10-27 09:14:53.528 TRACE 24336 --- [http-nio-9090-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_0_] : [VARCHAR]) - [lg]
+2022-10-27 09:14:53.528 TRACE 24336 --- [http-nio-9090-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_0_] : [VARCHAR]) - [india]
+2022-10-27 09:14:53.528 TRACE 24336 --- [http-nio-9090-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_0_] : [VARCHAR]) - [monitor]
+2022-10-27 09:14:53.528 TRACE 24336 --- [http-nio-9090-exec-2] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_0_] : [FLOAT]) - [10000.0]
+2022-10-27 09:14:53.535  INFO 24336 --- [http-nio-9090-exec-4] net.codejava.AppController               : Displaying products...
+2022-10-27 09:14:53.537 DEBUG 24336 --- [http-nio-9090-exec-4] org.hibernate.SQL                        : select product0_.id as id1_0_, product0_.brand as brand2_0_, product0_.madein as madein3_0_, product0_.name as name4_0_, product0_.price as price5_0_ from product product0_
+2022-10-27 09:14:53.539 TRACE 24336 --- [http-nio-9090-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [2]
+2022-10-27 09:14:53.539 TRACE 24336 --- [http-nio-9090-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_] : [VARCHAR]) - [lg]
+2022-10-27 09:14:53.539 TRACE 24336 --- [http-nio-9090-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_] : [VARCHAR]) - [india]
+2022-10-27 09:14:53.540 TRACE 24336 --- [http-nio-9090-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_] : [VARCHAR]) - [monitor]
+2022-10-27 09:14:53.540 TRACE 24336 --- [http-nio-9090-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [FLOAT]) - [10000.0]
+2022-10-27 09:14:53.540 TRACE 24336 --- [http-nio-9090-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [3]
+2022-10-27 09:14:53.540 TRACE 24336 --- [http-nio-9090-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_] : [VARCHAR]) - [redmi]
+2022-10-27 09:14:53.540 TRACE 24336 --- [http-nio-9090-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_] : [VARCHAR]) - [china]
+2022-10-27 09:14:53.540 TRACE 24336 --- [http-nio-9090-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_] : [VARCHAR]) - [Poco m4 pro]
+2022-10-27 09:14:53.540 TRACE 24336 --- [http-nio-9090-exec-4] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [FLOAT]) - [17000.0]
+2022-10-27 09:17:31.409 DEBUG 24336 --- [http-nio-9090-exec-8] org.hibernate.SQL                        : insert into product (brand, madein, name, price) values (?, ?, ?, ?)
+2022-10-27 09:17:31.411 TRACE 24336 --- [http-nio-9090-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Apple]
+2022-10-27 09:17:31.411 TRACE 24336 --- [http-nio-9090-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [USA]
+2022-10-27 09:17:31.411 TRACE 24336 --- [http-nio-9090-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [iPhone 14 plus]
+2022-10-27 09:17:31.411 TRACE 24336 --- [http-nio-9090-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [FLOAT] - [119900.0]
+2022-10-27 09:17:31.420  INFO 24336 --- [http-nio-9090-exec-10] net.codejava.AppController               : Displaying products...
+2022-10-27 09:17:31.421 DEBUG 24336 --- [http-nio-9090-exec-10] org.hibernate.SQL                        : select product0_.id as id1_0_, product0_.brand as brand2_0_, product0_.madein as madein3_0_, product0_.name as name4_0_, product0_.price as price5_0_ from product product0_
+2022-10-27 09:17:31.423 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [2]
+2022-10-27 09:17:31.423 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_] : [VARCHAR]) - [lg]
+2022-10-27 09:17:31.424 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_] : [VARCHAR]) - [india]
+2022-10-27 09:17:31.424 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_] : [VARCHAR]) - [monitor]
+2022-10-27 09:17:31.424 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [FLOAT]) - [10000.0]
+2022-10-27 09:17:31.424 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [3]
+2022-10-27 09:17:31.425 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_] : [VARCHAR]) - [redmi]
+2022-10-27 09:17:31.425 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_] : [VARCHAR]) - [china]
+2022-10-27 09:17:31.425 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_] : [VARCHAR]) - [Poco m4 pro]
+2022-10-27 09:17:31.425 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [FLOAT]) - [17000.0]
+2022-10-27 09:17:31.425 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [4]
+2022-10-27 09:17:31.426 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_] : [VARCHAR]) - [Apple]
+2022-10-27 09:17:31.426 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_] : [VARCHAR]) - [USA]
+2022-10-27 09:17:31.426 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_] : [VARCHAR]) - [iPhone 14 plus]
+2022-10-27 09:17:31.426 TRACE 24336 --- [http-nio-9090-exec-10] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [FLOAT]) - [119900.0]
+2022-10-27 09:21:18.041 DEBUG 24336 --- [http-nio-9090-exec-6] org.hibernate.SQL                        : insert into product (brand, madein, name, price) values (?, ?, ?, ?)
+2022-10-27 09:21:18.042 TRACE 24336 --- [http-nio-9090-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [Samsung]
+2022-10-27 09:21:18.042 TRACE 24336 --- [http-nio-9090-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [India]
+2022-10-27 09:21:18.042 TRACE 24336 --- [http-nio-9090-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [Refrigerator]
+2022-10-27 09:21:18.042 TRACE 24336 --- [http-nio-9090-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [FLOAT] - [30000.0]
+2022-10-27 09:21:18.053  INFO 24336 --- [http-nio-9090-exec-7] net.codejava.AppController               : Displaying products...
+2022-10-27 09:21:18.055 DEBUG 24336 --- [http-nio-9090-exec-7] org.hibernate.SQL                        : select product0_.id as id1_0_, product0_.brand as brand2_0_, product0_.madein as madein3_0_, product0_.name as name4_0_, product0_.price as price5_0_ from product product0_
+2022-10-27 09:21:18.056 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [2]
+2022-10-27 09:21:18.056 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_] : [VARCHAR]) - [lg]
+2022-10-27 09:21:18.056 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_] : [VARCHAR]) - [india]
+2022-10-27 09:21:18.057 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_] : [VARCHAR]) - [monitor]
+2022-10-27 09:21:18.057 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [FLOAT]) - [10000.0]
+2022-10-27 09:21:18.057 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [3]
+2022-10-27 09:21:18.057 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_] : [VARCHAR]) - [redmi]
+2022-10-27 09:21:18.057 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_] : [VARCHAR]) - [china]
+2022-10-27 09:21:18.057 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_] : [VARCHAR]) - [Poco m4 pro]
+2022-10-27 09:21:18.057 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [FLOAT]) - [17000.0]
+2022-10-27 09:21:18.058 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [4]
+2022-10-27 09:21:18.058 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_] : [VARCHAR]) - [Apple]
+2022-10-27 09:21:18.058 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_] : [VARCHAR]) - [USA]
+2022-10-27 09:21:18.058 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_] : [VARCHAR]) - [iPhone 14 plus]
+2022-10-27 09:21:18.059 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [FLOAT]) - [119900.0]
+2022-10-27 09:21:18.059 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([id1_0_] : [BIGINT]) - [5]
+2022-10-27 09:21:18.059 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([brand2_0_] : [VARCHAR]) - [Samsung]
+2022-10-27 09:21:18.059 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([madein3_0_] : [VARCHAR]) - [India]
+2022-10-27 09:21:18.059 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([name4_0_] : [VARCHAR]) - [Refrigerator]
+2022-10-27 09:21:18.059 TRACE 24336 --- [http-nio-9090-exec-7] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [FLOAT]) - [30000.0]
